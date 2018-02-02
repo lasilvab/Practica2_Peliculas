@@ -21,9 +21,15 @@ public class MainActivity extends AppCompatActivity {
         recyclerPeliculas.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
         listaPeliculas = new ArrayList<>();
 
-        //** Aquí es donde se van a llenar los registros de las películas **
         llenarPeliculas();
-        
+
+        AdapterPeliculas adapter = new AdapterPeliculas(listaPeliculas);
+        recyclerPeliculas.setAdapter(adapter);
+
+    }
+
+    //** Aquí es donde se van a llenar los registros de las películas **
+    private void llenarPeliculas() {
         listaPeliculas.add(new Pelicula(R.drawable.the_godfather,"El padrino","Drama","1972","9.0","1257"));
         listaPeliculas.add(new Pelicula(R.drawable.la_vita_e_bella,"La vida es bella","Comedia dramática","1997","8.5","3275"));
         listaPeliculas.add(new Pelicula(R.drawable.schindler_list,"La lista de Schindler","Drama, Nazismo","1993","8.7","5678"));
@@ -44,14 +50,6 @@ public class MainActivity extends AppCompatActivity {
         listaPeliculas.add(new Pelicula(R.drawable.indiana_jones_raiders_of_the_lost_ark,"Indiana Jones: Los cazadores del arca perdida","Aventuras. Acción","1981","7.8","4689"));
         listaPeliculas.add(new Pelicula(R.drawable.up,"Up, una aventura de altura","Animación","2009","7.9","4269"));
         listaPeliculas.add(new Pelicula(R.drawable.django_unchained,"Django sin cadenas","Western","2012","7.9","5678"));
-
-        
-        AdapterPeliculas adapter = new AdapterPeliculas(listaPeliculas);
-        recyclerPeliculas.setAdapter(adapter);
-
-    }
-
-    private void llenarPeliculas() {
     }
 
 
