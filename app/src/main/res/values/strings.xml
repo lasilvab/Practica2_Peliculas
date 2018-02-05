@@ -1,3 +1,244 @@
 <resources>
     <string name="app_name">Practica2_Peliculas</string>
+
+    <!-- 1.- El Padrino -->
+    <string name="peli_01_titulo">El padrino</string>
+    <string name="peli_01_genero">Drama</string>
+    <string name="peli_01_director">Francis Ford Coppola</string>
+    <string name="peli_01_compania">Paramount Pictures</string>
+    <string name="peli_01_fecha">1972</string>
+    <string name="peli_01_protagonista">Marlon Brando, Al Pacino, James Caan</string>
+    <string name="peli_01_nivel">11015</string>
+    <string name="peli_01_ranking">9.0</string>
+    <string name="peli_01_precio">1257</string>
+    <string name="peli_01_descripcion">América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone, en contra de los consejos de Il consigliere Tom Hagen (Robert Duvall), se niega a participar en el negocio de las drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias mafiosas. </string>
+
+    <!-- 2.- La vida es bella -->
+    <string name="peli_02_titulo">La vida es bella</string>
+    <string name="peli_02_genero">Comedia dramática</string>
+    <string name="peli_02_director">Roberto Benigni</string>
+    <string name="peli_02_compania">Melampo Cinematografica</string>
+    <string name="peli_02_fecha">1997</string>
+    <string name="peli_02_protagonista">Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini</string>
+    <string name="peli_02_nivel">8226</string>
+    <string name="peli_02_ranking">8.5</string>
+    <string name="peli_02_precio">3275</string>
+    <string name="peli_02_descripcion">En 1939, a punto de estallar la Segunda Guerra Mundial (1939-1945), el extravagante Guido llega a Arezzo, en la Toscana, con la intención de abrir una librería. Allí conoce a la encantadora Dora y, a pesar de que es la prometida del fascista Rodolfo, se casa con ella y tiene un hijo. Al estallar la guerra, los tres son internados en un campo de exterminio, donde Guido hará lo imposible para hacer creer a su hijo que la terrible situación que están padeciendo es tan sólo un juego. </string>
+
+    <!-- 3.- La lista de Schindler -->
+    <string name="peli_03_titulo">La lista de Schindler</string>
+    <string name="peli_03_genero">Drama, Nazismo</string>
+    <string name="peli_03_director">Steven Spiellberg</string>
+    <string name="peli_03_compania">Universal Pictures</string>
+    <string name="peli_03_fecha">1993</string>
+    <string name="peli_03_protagonista">Liam Neeson, Ben Kingsley, Ralph Fiennes</string>
+    <string name="peli_03_nivel">7114</string>
+    <string name="peli_03_ranking">8.7</string>
+    <string name="peli_03_precio">5678</string>
+    <string name="peli_03_descripcion">Segunda Guerra Mundial (1939-1945). Oskar Schindler (Liam Neeson), un hombre de enorme astucia y talento para las relaciones públicas, organiza un ambicioso plan para ganarse la simpatía de los nazis. Después de la invasión de Polonia por los alemanes (1939), consigue, gracias a sus relaciones con los nazis, la propiedad de una fábrica de Cracovia. Allí emplea a cientos de operarios judíos, cuya explotación le hace prosperar rápidamente. Su gerente (Ben Kingsley), también judío, es el verdadero director en la sombra, pues Schindler carece completamente de conocimientos para dirigir una empresa.</string>
+
+    <!-- 4.- El señor de los anillo - El retorno del rey -->
+    <string name="peli_04_titulo">El señor de los anillo - El retorno del rey</string>
+    <string name="peli_04_genero">Fantástico. Aventuras</string>
+    <string name="peli_04_director">Peter Jackson</string>
+    <string name="peli_04_compania">New Line Cinema</string>
+    <string name="peli_04_fecha">2003</string>
+    <string name="peli_04_protagonista">Elijah Wood, Viggo Mortensen, Ian McKellen</string>
+    <string name="peli_04_nivel">6243</string>
+    <string name="peli_04_ranking">8.1</string>
+    <string name="peli_04_precio">8925</string>
+    <string name="peli_04_descripcion">Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de decidir el destino de la Tierra Media, y, por primera vez, parece que hay una pequeña esperanza. El interés del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, cuyo trono será reclamado por Aragorn. Sauron se dispone a lanzar un ataque decisivo contra Gondor. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, con la esperanza de llegar al Monte del Destino.</string>
+
+    <!-- 5.- Forrest Gump -->
+    <string name="peli_05_titulo">Forrest Gump</string>
+    <string name="peli_05_genero">Comedia. Drama</string>
+    <string name="peli_05_director">Robert Zemeckis</string>
+    <string name="peli_05_compania">Paramount Pictures</string>
+    <string name="peli_05_fecha">1994</string>
+    <string name="peli_05_protagonista">Tom Hanks, Robin Wright, Gary Sinise</string>
+    <string name="peli_05_nivel">6012</string>
+    <string name="peli_05_ranking">8.2</string>
+    <string name="peli_05_precio">2457</string>
+    <string name="peli_05_descripcion">Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas. Mientras pasan por su vida multitud de cosas en su mente siempre está presente la bella Jenny (Robin Wright), su gran amor desde la infancia, que junto a su madre será la persona más importante en su vida.</string>
+
+    <!-- 6.- Gladiador -->
+    <string name="peli_06_titulo">Gladiador</string>
+    <string name="peli_06_genero">Acción. Aventuras</string>
+    <string name="peli_06_director">Ridley Scott</string>
+    <string name="peli_06_compania">Universal Pictures</string>
+    <string name="peli_06_fecha">2000</string>
+    <string name="peli_06_protagonista">Russell Crowe, Joaquin Phoenix, Connie Nielsen</string>
+    <string name="peli_06_nivel">5904</string>
+    <string name="peli_06_ranking">7.9</string>
+    <string name="peli_06_precio">3576</string>
+    <string name="peli_06_descripcion">En el año 180, el Imperio Romano domina todo el mundo conocido. Tras una gran victoria sobre los bárbaros del norte, el anciano emperador Marco Aurelio (Richard Harris) decide transferir el poder a Máximo (Russell Crowe), bravo general de sus ejércitos y hombre de inquebrantable lealtad al imperio. Pero su hijo Cómodo (Joaquin Phoenix), que aspiraba al trono, no lo acepta y trata de asesinar a Máximo.</string>
+
+    <!-- 7. El pianista -->
+    <string name="peli_07_titulo">El pianista</string>
+    <string name="peli_07_genero">Drama, Nazismo</string>
+    <string name="peli_07_director">Roman Polanski</string>
+    <string name="peli_07_compania"> R.P. Productions / Heritage Films</string>
+    <string name="peli_07_fecha">2002</string>
+    <string name="peli_07_protagonista">Adrien Brody, Thomas Kretschmann, Maureen Lipman</string>
+    <string name="peli_07_nivel">4347</string>
+    <string name="peli_07_ranking">8.3</string>
+    <string name="peli_07_precio">4268</string>
+    <string name="peli_07_descripcion">Wladyslaw Szpilman, un brillante pianista polaco de origen judío, vive con su familia en el ghetto de Varsovia. Cuando, en 1939, los alemanes invaden Polonia, consigue evitar la deportación gracias a la ayuda de algunos amigos. Pero tendrá que vivir escondido y completamente aislado durante mucho tiempo, y para sobrevivir tendrá que afrontar constantes peligros.</string>
+
+    <!-- 8.- El silencio de los inocentes -->
+    <string name="peli_08_titulo">El silencio de los inocentes</string>
+    <string name="peli_08_genero">Thriller</string>
+    <string name="peli_08_director">Jonathan Demme</string>
+    <string name="peli_08_compania">Orion Pictures</string>
+    <string name="peli_08_fecha">3934</string>
+    <string name="peli_08_protagonista">Jodie Foster, Anthony Hopkins, Scott Glenn</string>
+    <string name="peli_08_nivel">3934</string>
+    <string name="peli_08_ranking">8.2</string>
+    <string name="peli_08_precio">2589</string>
+    <string name="peli_08_descripcion">El FBI busca a "Buffalo Bill", un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel. Para poder atraparlo recurren a Clarice Starling, una brillante licenciada universitaria, experta en conductas psicópatas, que aspira a formar parte del FBI. Siguiendo las instrucciones de su jefe, Jack Crawford, Clarice visita la cárcel de alta seguridad donde el gobierno mantiene encerrado al Dr. Hannibal Lecter, antiguo psicoanalista y asesino, dotado de una inteligencia superior a la normal. Su misión será intentar sacarle información sobre los patrones de conducta del asesino que están buscando.</string>
+
+    <!-- 9.- Bastardos sin gloria -->
+    <string name="peli_09_titulo">Bastardos sin gloria</string>
+    <string name="peli_09_genero">Bélico. Acción</string>
+    <string name="peli_09_director">Quentin Tarantino</string>
+    <string name="peli_09_compania">Universal Pictures / The Weinstein Company</string>
+    <string name="peli_09_fecha">2009</string>
+    <string name="peli_09_protagonista">Brad Pitt, Christoph Waltz, Mélanie Laurent</string>
+    <string name="peli_09_nivel">3790</string>
+    <string name="peli_09_ranking">7.8</string>
+    <string name="peli_09_precio">3458</string>
+    <string name="peli_09_descripcion">Segunda Guerra Mundial (1939-1945). En la Francia ocupada por los alemanes, Shosanna Dreyfus (Mélanie Laurent) presencia la ejecución de su familia por orden del coronel Hans Landa (Christoph Waltz). Después de huir a París, adopta una nueva identidad como propietaria de un cine. En otro lugar de Europa, el teniente Aldo Raine (Brad Pitt) adiestra a un grupo de soldados judíos ("The Basterds") para atacar objetivos concretos. Los hombres de Raine y una actriz alemana (Diane Kruger), que trabaja para los aliados, deben llevar a cabo una misión que hará caer a los jefes del Tercer Reich. El destino quiere que todos se encuentren bajo la marquesina de un cine donde Shosanna espera para vengarse.</string>
+
+    <!-- 10.- Rescatando al soldado Ryan -->
+    <string name="peli_10_titulo">Rescatando al soldado Ryan</string>
+    <string name="peli_10_genero">Bélico</string>
+    <string name="peli_10_director">Steven Spielberg</string>
+    <string name="peli_10_compania">DreamWorks SKG / Paramount Pictures</string>
+    <string name="peli_10_fecha">1998</string>
+    <string name="peli_10_protagonista">Leonardo DiCaprio, Matt Damon, Jack Nicholson</string>
+    <string name="peli_10_nivel">3173</string>
+    <string name="peli_10_ranking">7.8</string>
+    <string name="peli_10_precio">4257</string>
+    <string name="peli_10_descripcion">Segunda Guerra Mundial (1939-1945). Tras el desembarco de los Aliados en Normandía, a un grupo de soldados americanos se le encomienda una peligrosa misión: poner a salvo al soldado James Ryan. Los hombres de la patrulla del capitán John Miller deben arriesgar sus vidas para encontrar a este soldado, cuyos tres hermanos han muerto en la guerra. Lo único que se sabe del soldado Ryan es que se lanzó con su escuadrón de paracaidistas detrás de las líneas enemigas. </string>
+
+    <!-- 11.- Casablanca -->
+    <string name="peli_11_titulo">Casablanca</string>
+    <string name="peli_11_genero">Drama. Romance</string>
+    <string name="peli_11_director">Michael Curtiz</string>
+    <string name="peli_11_compania">Warner Bros. Pictures</string>
+    <string name="peli_11_fecha">1942</string>
+    <string name="peli_11_protagonista">Humphrey Bogart, Ingrid Bergman, Paul Henreid</string>
+    <string name="peli_11_nivel">3100</string>
+    <string name="peli_11_ranking">8.4</string>
+    <string name="peli_11_precio">1357</string>
+    <string name="peli_11_descripcion">Años 40. A consecuencia de la Segunda Guerra Mundial, Casablanca era una ciudad a la que llegaban huyendo del nazismo gente de todas partes: llegar era fácil, pero salir era casi imposible, especialmente si el nombre del fugitivo figuraba en las listas de la Gestapo, que presionaba a la autoridades francesas al mando del corrupto inspector Renault. En este caso, el objetivo de la policía secreta alemana es el líder checo y héroe de la resistencia Victor Laszlo, cuya única esperanza es Rick Blaine, propietario del Rick’s Café y antiguo amante de su mujer, Ilsa Lund. Rick e Ilsa se habían conocido en París, pero la entrada de las tropas alemanas en la capital francesa les separó.</string>
+
+    <!-- 12.- Titanic -->
+    <string name="peli_12_titulo">Titanic</string>
+    <string name="peli_12_genero">Drama. Romance</string>
+    <string name="peli_12_director">James Cameron</string>
+    <string name="peli_12_compania">Paramount Pictures / 20th Century Fox</string>
+    <string name="peli_12_fecha">1997</string>
+    <string name="peli_12_protagonista">Leonardo DiCaprio, Kate Winslet, Billy Zane</string>
+    <string name="peli_12_nivel">2681</string>
+    <string name="peli_12_ranking">6.8</string>
+    <string name="peli_12_precio">6875</string>
+    <string name="peli_12_descripcion">Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso transatlántico se aproxima hacia un inmenso iceberg.</string>
+
+    <!-- 13.- Avatar -->
+    <string name="peli_13_titulo">Avatar</string>
+    <string name="peli_13_genero">Ciencia ficción</string>
+    <string name="peli_13_director">James Cameron</string>
+    <string name="peli_13_compania">20th Century Fox</string>
+    <string name="peli_13_fecha">2009</string>
+    <string name="peli_13_protagonista">Sam Worthington, Zoe Saldana, Sigourney Weaver</string>
+    <string name="peli_13_nivel">2665</string>
+    <string name="peli_13_ranking">7.2</string>
+    <string name="peli_13_precio">7257</string>
+    <string name="peli_13_descripcion">Año 2154. Jake Sully (Sam Worthington), un ex-marine condenado a vivir en una silla de ruedas, sigue siendo, a pesar de ello, un auténtico guerrero. Precisamente por ello ha sido designado para ir a Pandora, donde algunas empresas están extrayendo un mineral extraño que podría resolver la crisis energética de la Tierra. Para contrarrestar la toxicidad de la atmósfera de Pandora, se ha creado el programa Avatar, gracias al cual los seres humanos mantienen sus conciencias unidas a un avatar: un cuerpo biológico controlado de forma remota que puede sobrevivir en el aire letal. Esos cuerpos han sido creados con ADN humano, mezclado con ADN de los nativos de Pandora, los Navi. Convertido en avatar, Jake puede caminar otra vez. Su misión consiste en infiltrarse entre los Navi, que se han convertido en el mayor obstáculo para la extracción del mineral. Pero cuando Neytiri, una bella Navi (Zoe Saldana), salva la vida de Jake, todo cambia: Jake, tras superar ciertas pruebas, es admitido en su clan. Mientras tanto, los hombres esperan los resultados de la misión de Jake.</string>
+
+    <!-- 14.- El rey león -->
+    <string name="peli_14_titulo">El rey león</string>
+    <string name="peli_14_genero">Animación</string>
+    <string name="peli_14_director">Rob Minkoff, Roger Allers</string>
+    <string name="peli_14_compania">Walt Disney Pictures</string>
+    <string name="peli_14_fecha">1994</string>
+    <string name="peli_14_protagonista">Animation</string>
+    <string name="peli_14_nivel">2295</string>
+    <string name="peli_14_ranking">7.9</string>
+    <string name="peli_14_precio">5689</string>
+    <string name="peli_14_descripcion">La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, al ser injustamente acusado por el malvado Scar de la muerte de su padre, se ve obligado a exiliarse. Durante su destierro, hará buenas amistades e intentará regresar para recuperar lo que legítimamente le corresponde.</string>
+
+    <!-- 15.- Terminator 2 - El día del juicio -->
+    <string name="peli_15_titulo">Terminator 2 - El día del juicio</string>
+    <string name="peli_15_genero">Ciencia ficción</string>
+    <string name="peli_15_director">James Cameron</string>
+    <string name="peli_15_compania">Carolco Pictures / Pacific Western / Lightstorm Entertainment</string>
+    <string name="peli_15_fecha">1991</string>
+    <string name="peli_15_protagonista">Arnold Schwarzenegger,  Linda Hamilton,  Edward Furlong</string>
+    <string name="peli_15_nivel">2249</string>
+    <string name="peli_15_ranking">7.5</string>
+    <string name="peli_15_precio">5267</string>
+    <string name="peli_15_descripcion">Sarah Connor, la madre soltera del rebelde John Connor, está ingresada en un psiquiátrico. Algunos años antes, un viajero del tiempo le había revelado que su hijo sería el salvador de la humanidad en un futuro dominado por las máquinas. Se convirtió entonces en una especie de guerrera y educó a su hijo John en tácticas de supervivencia. Esta es la razón por la que está recluida en un manicomio. Cuando un nuevo androide mejorado, un T-1000, llega del futuro para asesinar a John, un viejo modelo T-800 será enviado para protegerle.</string>
+
+    <!-- 16.- El sexto sentido -->
+    <string name="peli_16_titulo">El sexto sentido</string>
+    <string name="peli_16_genero">Terror</string>
+    <string name="peli_16_director">M. Night Shyamalan</string>
+    <string name="peli_16_compania">Hollywood Pictures / Spyglass Entertainment</string>
+    <string name="peli_16_fecha">1999</string>
+    <string name="peli_16_protagonista">Haley Joel Osment, Bruce Willis, Toni Collette</string>
+    <string name="peli_16_nivel">2198</string>
+    <string name="peli_16_ranking">7.6</string>
+    <string name="peli_16_precio">3257</string>
+    <string name="peli_16_descripcion">El doctor Malcom Crowe es un conocido psicólogo infantil de Philadelphia que vive obsesionado por el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cuando conoce a Cole Sear, un aterrorizado y confuso niño de ocho años que necesita tratamiento, ve que se le presenta la oportunidad de redimirse haciendo todo lo posible por ayudarlo. Sin embargo, el doctor Crowe no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados.</string>
+
+    <!-- 17.- Amigos -->
+    <string name="peli_17_titulo">Amigos</string>
+    <string name="peli_17_genero">Comedia dramática</string>
+    <string name="peli_17_director">Olivier Nakache, Eric Toledano</string>
+    <string name="peli_17_compania">Quad Productions / Gaumont / TF1 Films</string>
+    <string name="peli_17_fecha">2011</string>
+    <string name="peli_17_protagonista">François Cluzet, Omar Sy, Anne Le Ny</string>
+    <string name="peli_17_nivel">2151</string>
+    <string name="peli_17_ranking">8.1</string>
+    <string name="peli_17_precio">3648</string>
+    <string name="peli_17_descripcion">Philippe, un aristócrata millonario que se ha quedado tetrapléjico a causa de un accidente de parapente, contrata como cuidador a domicilio a Driss, un inmigrante de un barrio marginal recién salido de la cárcel. Aunque, a primera vista, no parece la persona más indicada, los dos acaban logrando que convivan Vivaldi y Earth Wind and Fire, la elocuencia y la hilaridad, los trajes de etiqueta y el chándal. Dos mundos enfrentados que, poco a poco, congenian hasta forjar una amistad tan disparatada, divertida y sólida como inesperada, una relación única en su especie de la que saltan chispas.</string>
+
+    <!-- 18.- Indiana Jones: Los cazadores del arca perdida -->
+    <string name="peli_18_titulo">Indiana Jones: Los cazadores del arca perdida</string>
+    <string name="peli_18_genero">Aventuras. Acción</string>
+    <string name="peli_18_director">Steven Spielberg</string>
+    <string name="peli_18_compania">Paramount Pictures / Lucasfilm</string>
+    <string name="peli_18_fecha">1981</string>
+    <string name="peli_18_protagonista">Harrison Ford,  Karen Allen,  Paul Freeman</string>
+    <string name="peli_18_nivel">2033</string>
+    <string name="peli_18_ranking">7.8</string>
+    <string name="peli_18_precio">4689</string>
+    <string name="peli_18_descripcion">Año 1936. Indiana Jones es un profesor de arqueología, dispuesto a correr peligrosas aventuras con tal de conseguir valiosas reliquias históricas. Después de una infructuosa misión en Sudamérica, el gobierno estadounidense le encarga la búsqueda del Arca de la Alianza, donde se conservan las Tablas de la Ley que Dios entregó a Moisés. Según la leyenda, quien las posea tendrá un poder absoluto, razón por la cual también la buscan los nazis.</string>
+
+    <!-- 19.- Up, una aventura de altura -->
+    <string name="peli_19_titulo">Up, una aventura de altura</string>
+    <string name="peli_19_genero">Animación</string>
+    <string name="peli_19_director">Pete Docter, Bob Peterson</string>
+    <string name="peli_19_compania">Pixar Animation Studios / Walt Disney Pictures</string>
+    <string name="peli_19_fecha">2009</string>
+    <string name="peli_19_protagonista">Animation</string>
+    <string name="peli_19_nivel">2025</string>
+    <string name="peli_19_ranking">7.9</string>
+    <string name="peli_19_precio">4269</string>
+    <string name="peli_19_descripcion">Carl Fredricksen es un viudo vendedor de globos de 78 años que, finalmente, consigue llevar a cabo el sueño de su vida: enganchar miles de globos a su casa y salir volando rumbo a América del Sur. Pero ya estando en el aire y sin posibilidad de retornar Carl descubre que viaja acompañado de Russell, un explorador que tiene ocho años y un optimismo a prueba de bomba.</string>
+
+    <!-- 20. Django sin cadenas -->
+    <string name="peli_20_titulo">Django sin cadenas</string>
+    <string name="peli_20_genero">Western</string>
+    <string name="peli_20_director">Quentin Tarantino</string>
+    <string name="peli_20_compania">Sony Pictures / The Weinstein Company</string>
+    <string name="peli_20_fecha">2012</string>
+    <string name="peli_20_protagonista">Jamie Foxx, Christoph Waltz, Leonardo DiCaprio</string>
+    <string name="peli_20_nivel">1971</string>
+    <string name="peli_20_ranking">7.9</string>
+    <string name="peli_20_precio">5678</string>
+    <string name="peli_20_descripcion">En Texas, dos años antes de estallar la Guerra Civil Americana, King Schultz (Christoph Waltz), un cazarrecompensas alemán que sigue la pista a unos asesinos para cobrar por sus cabezas, le promete al esclavo negro Django (Jamie Foxx) dejarlo en libertad si le ayuda a atraparlos. Él acepta, pues luego quiere ir a buscar a su esposa Broomhilda (Kerry Washington), esclava en una plantación del terrateniente Calvin Candie (Leonardo DiCaprio).</string>
+
 </resources>

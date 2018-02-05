@@ -10,7 +10,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="25dp"
         android:fillViewport="true">
 
         <LinearLayout
@@ -26,7 +25,7 @@
 
         <TextView
             android:id="@+id/IdTitulo"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Titulo"
             android:textColor="@color/colorPrimaryDark"
@@ -35,9 +34,15 @@
 
         <TextView
             android:id="@+id/IdGenero"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Genero"/>
+
+        <TextView
+            android:id="@+id/IdDirector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Director"/>
 
         <TextView
             android:id="@+id/IdFecha"
@@ -56,6 +61,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Precio"/>
+
+        <TextView
+            android:id="@+id/IdDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"/>
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </RelativeLayout>

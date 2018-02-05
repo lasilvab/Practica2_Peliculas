@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class DetailActivity extends AppCompatActivity{
 
     ImageView imagen=null;
-    TextView txtTitulo, txtGenero, txtFecha, txtRanking, txtPrecio;
+    TextView txtTitulo, txtGenero, txtDirector, txtFecha, txtRanking, txtPrecio, txtDescripcion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -22,9 +22,11 @@ public class DetailActivity extends AppCompatActivity{
         imagen = (ImageView) findViewById(R.id.IdImagen);
         txtTitulo = (TextView) findViewById(R.id.IdTitulo);
         txtGenero = (TextView) findViewById(R.id.IdGenero);
+        txtDirector = (TextView) findViewById(R.id.IdDirector);
         txtFecha = (TextView) findViewById(R.id.IdFecha);
         txtRanking = (TextView) findViewById(R.id.IdRanking);
         txtPrecio = (TextView) findViewById(R.id.IdPrecio);
+        txtDescripcion = (TextView) findViewById(R.id.IdDescripcion);
 
         Bundle peliculaSelected = getIntent().getExtras();
         Pelicula pelicula=null;
@@ -34,10 +36,12 @@ public class DetailActivity extends AppCompatActivity{
 
             imagen.setImageResource(pelicula.getImagen());
             txtTitulo.setText(pelicula.getTitulo());
-            txtGenero.setText(pelicula.getGenero());
-            txtFecha.setText(pelicula.getFecha());
-            txtRanking.setText(pelicula.getRanking());
-            txtPrecio.setText(pelicula.getPrecio());
+            txtGenero.setText("Género: "+pelicula.getGenero());
+            txtDirector.setText("Director: "+pelicula.getDirector());
+            txtFecha.setText("Fecha de publicación: "+pelicula.getFecha());
+            txtRanking.setText("Ranking: "+pelicula.getRanking());
+            txtPrecio.setText("Precio: "+pelicula.getPrecio());
+            txtDescripcion.setText("Descripción: "+pelicula.getDescripcion());
         }
 
     }
