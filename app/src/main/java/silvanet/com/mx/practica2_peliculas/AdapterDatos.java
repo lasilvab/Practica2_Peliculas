@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * Created by Luis Alfredo on 01/02/2018.
  */
 
-public class AdapterDatos extends RecyclerView.Adapter<AdapterDatos.ViewHolderDatos> {
+public class AdapterDatos extends RecyclerView.Adapter<AdapterDatos.ViewHolderDatos> implements View.OnClickListener {
 
     ArrayList<String> listDatos;
 
@@ -35,6 +35,11 @@ public class AdapterDatos extends RecyclerView.Adapter<AdapterDatos.ViewHolderDa
     @Override
     public int getItemCount() {
         return listDatos.size();
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 
     public class ViewHolderDatos extends RecyclerView.ViewHolder {

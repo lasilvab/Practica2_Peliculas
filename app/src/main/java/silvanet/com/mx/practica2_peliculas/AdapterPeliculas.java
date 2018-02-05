@@ -13,9 +13,10 @@ import java.util.ArrayList;
  * Created by Luis Alfredo on 01/02/2018.
  */
 
-public class AdapterPeliculas extends RecyclerView.Adapter<AdapterPeliculas.ViewHolderPeliculas> {
+public class AdapterPeliculas extends RecyclerView.Adapter<AdapterPeliculas.ViewHolderPeliculas> implements View.OnClickListener {
 
     ArrayList<Pelicula> listaPeliculas;
+    private View.OnClickListener listener;
 
     public AdapterPeliculas(ArrayList<Pelicula> listaPeliculas) {
         this.listaPeliculas = listaPeliculas;
@@ -24,6 +25,7 @@ public class AdapterPeliculas extends RecyclerView.Adapter<AdapterPeliculas.View
     @Override
     public ViewHolderPeliculas onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list_peliculas,null,false);
+        view.setOnClickListener(this);
         return new ViewHolderPeliculas(view);
     }
 
@@ -42,6 +44,18 @@ public class AdapterPeliculas extends RecyclerView.Adapter<AdapterPeliculas.View
     @Override
     public int getItemCount() {
         return listaPeliculas.size();
+    }
+
+    public void setOnClickListener(View.OnClickListener listener){
+        this.listener=listener;
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (listener!=null){
+            listener.onClick(v);
+        }
+
     }
 
     public class ViewHolderPeliculas extends RecyclerView.ViewHolder {
