@@ -1,5 +1,6 @@
 package silvanet.com.mx.practica2_peliculas;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -33,11 +34,23 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Seleccionaste: "+listaPeliculas.get
                         (recyclerPeliculas.getChildAdapterPosition(v)).getTitulo(),Toast.LENGTH_SHORT).show();
+
+                Pelicula pelicula = listaPeliculas.get(recyclerPeliculas.getChildAdapterPosition(v));
+
+                Intent intent=new Intent(MainActivity.this,DetailActivity.class);
+
+                Bundle bundle=new Bundle();
+                bundle.putSerializable("pelicula",pelicula);
+
+                intent.putExtras(bundle);
+                startActivity(intent);
+
             }
         });
 
+
         recyclerPeliculas.setAdapter(adapter);
-        
+
     }
 
     //** Aquí es donde se van a llenar los registros de las películas **

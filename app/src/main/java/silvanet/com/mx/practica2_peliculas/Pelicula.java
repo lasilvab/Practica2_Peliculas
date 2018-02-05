@@ -1,10 +1,12 @@
 package silvanet.com.mx.practica2_peliculas;
 
+import java.io.Serializable;
+
 /**
  * Created by Luis Alfredo on 01/02/2018.
  */
 
-public class Pelicula {
+public class Pelicula implements Serializable {
 
     private int imagen;
     private String titulo;
