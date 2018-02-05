@@ -12,7 +12,10 @@ public class Pelicula implements Serializable {
     private String titulo=null;
     private String genero=null;
     private String director=null;
+    private String compania=null;
     private String fecha=null;
+    private String protagonista=null;
+    private String nivel=null;
     private String ranking=null;
     private String precio=null;
     private String descripcion=null;
@@ -22,12 +25,16 @@ public class Pelicula implements Serializable {
     }
 
 
-    public Pelicula(int imagen, String titulo, String genero, String director, String fecha, String ranking, String precio, String descripcion) {
+    public Pelicula(int imagen, String titulo, String genero, String director, String compania, String fecha,
+                    String protagonista, String nivel, String ranking, String precio, String descripcion) {
         this.imagen = imagen;
         this.titulo = titulo;
         this.genero = genero;
         this.director = director;
+        this.compania = compania;
         this.fecha = fecha;
+        this.protagonista = protagonista;
+        this.nivel = nivel;
         this.ranking = ranking;
         this.precio = precio;
         this.descripcion = descripcion;
@@ -62,11 +69,32 @@ public class Pelicula implements Serializable {
         this.director = director;
     }
 
+    public String getCompania() {
+        return compania;
+    }
+    public void setCompania(String compania) {
+        this.compania = compania;
+    }
+
     public String getFecha() {
         return fecha;
     }
     public void setFeccha(String feccha) {
         this.fecha = feccha;
+    }
+
+    public String getProtagonista() {
+        return protagonista;
+    }
+    public void setProtagonista(String protagonista) {
+        this.protagonista = protagonista;
+    }
+
+    public String getNivel() {
+        return nivel;
+    }
+    public void setNivel(String nivel) {
+        this.nivel = nivel;
     }
 
     public String getRanking() {

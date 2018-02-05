@@ -19,53 +19,98 @@
 
         <ImageView
             android:id="@+id/IdImagen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
             android:src="@mipmap/ic_launcher"/>
 
         <TextView
             android:id="@+id/IdTitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
             android:text="Titulo"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/IdGenero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
             android:text="Genero"/>
 
         <TextView
             android:id="@+id/IdDirector"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorBlak"
+            android:textStyle="bold"
             android:text="Director"/>
+
+        <TextView
+            android:id="@+id/IdCompania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Compania"/>
 
         <TextView
             android:id="@+id/IdFecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
             android:text="Fecha de Publicacion"/>
+
+        <TextView
+            android:id="@+id/IdProtagonista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorBlak"
+            android:textStyle="bold"
+            android:text="Protagonista"/>
+
+        <TextView
+            android:id="@+id/IdNivel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Nivel"/>
 
         <TextView
             android:id="@+id/IdRanking"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
             android:text="Ranking"/>
 
         <TextView
             android:id="@+id/IdPrecio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
             android:text="Precio"/>
 
         <TextView
             android:id="@+id/IdDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorBlak"
             android:text="Descripcion"/>
 
         </LinearLayout>
